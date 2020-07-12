@@ -56,3 +56,9 @@ function off() {
   let int = setInterval(() => div.style.opacity -= 0.1, 100);
   setTimeout(() => {clearInterval(int); div.style.display = 'none'; div.style.opacity = '0'}, 1100)
 };
+
+if(detectIE()){
+  div.style.backgroundColor = '#bc8f8f';
+  h1.textContent = 'Ваш браузер устарел!';
+  div.appendChild(h1);
+}
