@@ -212,6 +212,7 @@ button {
 	section {
 		height: auto;
 		background-size: 10%;
+		margin: 20px;
 	}
 	section:nth-child(odd),
 	section:nth-child(even) {
@@ -275,6 +276,7 @@ button {
 @media (min-width: 480px) and (max-width: 1024px) {
 	section {
 		height: auto;
+		margin: 20px;
 	}
 	section h1 {
 		font-size: 8vh;
